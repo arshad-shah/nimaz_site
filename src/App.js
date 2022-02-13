@@ -1,24 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import { createTheme, responsiveFontSizes, StyledEngineProvider, ThemeProvider} from '@mui/material';
+import React from 'react';
+import MainSite from './components/MainSite';
+
+
+let theme = createTheme({
+  palette: {
+    mode: "light",
+    primary: {
+      main: "#fdff95",
+    },
+    secondary: {
+      main: "#ffbf0d",
+    },
+    action: {
+      hoverOpacity: 0.09,
+    },
+  },
+  breakpoints: {
+    values: {
+      xs: 320,
+      smxs: 350,
+      sm: 460,
+      md: 786,
+      lg: 1024,
+      xl: 1440,
+    },
+  },
+  typography: {
+    fontFamily: "Nunito",
+    fontSize: 18,
+  },
+});
+
+theme = responsiveFontSizes(theme);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <StyledEngineProvider injectFirst>
+      <ThemeProvider theme={theme}>
+        <MainSite/>
+      </ThemeProvider>
+    </StyledEngineProvider>
   );
 }
 
