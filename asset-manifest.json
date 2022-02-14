@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b3afdc90.css",
+    "main.js": "/static/js/main.f1e5133c.js",
+    "static/media/QiblaCompassPage.png": "/static/media/QiblaCompassPage.c88e54e1f20a020cebcd.png",
+    "static/media/QuranAyaListWithEnglishFeat.png": "/static/media/QuranAyaListWithEnglishFeat.f5a77f9899f28a81dcf0.png",
+    "static/media/QuranAyaListWithEnglish.png": "/static/media/QuranAyaListWithEnglish.3c3d07df4b568aa206cc.png",
+    "static/media/PrayerTimesPage.png": "/static/media/PrayerTimesPage.69354c76811491cd29c3.png",
+    "static/media/QiblaCompassPageFeat.png": "/static/media/QiblaCompassPageFeat.e1dfc36ac0a11291862a.png",
+    "static/media/QuranAyaListWithUrduFeat.png": "/static/media/QuranAyaListWithUrduFeat.4a428286301070eed0cd.png",
+    "static/media/QuranAyaListWithUrdu.png": "/static/media/QuranAyaListWithUrdu.83f561eaa541fc2598dd.png",
+    "static/media/TasbeehListPage.png": "/static/media/TasbeehListPage.83828f401d013b794116.png",
+    "static/media/namesOfAllahPage.png": "/static/media/namesOfAllahPage.a554f52eef1429940718.png",
+    "static/media/QuranSurahListPage.png": "/static/media/QuranSurahListPage.8bae091b2701924c29f1.png",
+    "static/media/TasbeehListPageFeat.png": "/static/media/TasbeehListPageFeat.97aaa7ba33d7cfa787a9.png",
+    "static/media/QuranJuzListPage.png": "/static/media/QuranJuzListPage.651f2b9cda7ab2ddc73b.png",
+    "static/media/namesOfAllahPageFeat.png": "/static/media/namesOfAllahPageFeat.ae30496b15cc20830bc4.png",
+    "static/media/QuranSurahListPageFeat.png": "/static/media/QuranSurahListPageFeat.308853c3a5dac5ce3a6c.png",
+    "static/media/QuranJuzListPageFeat.png": "/static/media/QuranJuzListPageFeat.b599e90549fe30847fba.png",
+    "static/media/TasbeehPage.png": "/static/media/TasbeehPage.cd64eb6e5bb847b64db0.png",
+    "static/media/prayerTimesfeat.png": "/static/media/prayerTimesfeat.30fd5a24ca8ec8f80c3e.png",
+    "static/media/CustomPrayerTimesFeat.png": "/static/media/CustomPrayerTimesFeat.0336933ed991dd66fa92.png",
+    "static/media/TasbeehPageFeat.png": "/static/media/TasbeehPageFeat.e2ab2488dcd13357b9e9.png",
+    "static/media/Terms and Condition.pdf": "/static/media/Terms and Condition.c2cb253a0ddd3b258abf.pdf",
+    "static/media/Privacy Policy.pdf": "/static/media/Privacy Policy.06ada0df63d36ef44b56.pdf",
+    "static/media/LocationFeat.png": "/static/media/LocationFeat.2ef0130b3dff0d63ee60.png",
+    "static/media/logo.png": "/static/media/logo.10c27a70e3d2eac835db.png",
+    "index.html": "/index.html",
+    "main.b3afdc90.css.map": "/static/css/main.b3afdc90.css.map",
+    "main.f1e5133c.js.map": "/static/js/main.f1e5133c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3afdc90.css",
+    "static/js/main.f1e5133c.js"
+  ]
+}
