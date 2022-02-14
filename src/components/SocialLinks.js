@@ -1,8 +1,8 @@
-import { Box, IconButton, Tooltip } from '@mui/material';
-import React from 'react';
-import { FaHackerrank } from 'react-icons/fa';
-import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
-import PropTypes from 'prop-types';
+import { Box, IconButton, Tooltip } from "@mui/material";
+import React from "react";
+import { FaHackerrank } from "react-icons/fa";
+import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
+import PropTypes from "prop-types";
 
 function SocialLinks(props) {
 	return (
@@ -15,7 +15,8 @@ function SocialLinks(props) {
 					aria-label="link to Github account of Arshad shah"
 					data-block="linktoGithub"
 					href="https://github.com/arshad-shah"
-					size="large">
+					size="large"
+				>
 					<FiGithub />
 				</IconButton>
 			</Tooltip>
@@ -28,7 +29,8 @@ function SocialLinks(props) {
 					aria-label="link to Linkedin account of Arshad shah"
 					data-block="linktoLinkedin"
 					href="https://www.linkedin.com/in/arshadshah"
-					size="large">
+					size="large"
+				>
 					<FiLinkedin />
 				</IconButton>
 			</Tooltip>
@@ -41,7 +43,8 @@ function SocialLinks(props) {
 					aria-label="link to Hacker Rank account of Arshad shah"
 					data-block="linktoHackerRank"
 					href="https://www.hackerrank.com/shaharshad57"
-					size="large">
+					size="large"
+				>
 					<FaHackerrank />
 				</IconButton>
 			</Tooltip>
@@ -53,8 +56,9 @@ function SocialLinks(props) {
 					role="button"
 					aria-label="link to mail account of Arshad shah"
 					data-block="linktoMail"
-					href="mailto:arshad@arshadshah.com"
-					size="large">
+					href="mailto:info@arshadshah.com"
+					size="large"
+				>
 					<FiMail />
 				</IconButton>
 			</Tooltip>

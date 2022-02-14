@@ -1,6 +1,6 @@
 import React from "react";
 import { styled } from "@mui/material/styles";
-import { Box, List, ListItem, Link as ExternalLink } from "@mui/material";
+import { Box, List, ListItem } from "@mui/material";
 import { Link } from "react-scroll";
 
 const PREFIX = "Mobile";
