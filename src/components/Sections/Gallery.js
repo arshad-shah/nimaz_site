@@ -1,4 +1,4 @@
-import { Box, Typography, useTheme } from "@mui/material";
+import { Box, Toolbar, Typography, useTheme } from "@mui/material";
 import React from "react";
 import Carousel from "react-gallery-carousel";
 import "react-gallery-carousel/dist/index.css";
@@ -29,6 +29,7 @@ function Gallery() {
 			justifyContent="center"
 			p={2}
 		>
+			<Toolbar id="gallery" />
 			<Typography variant="h4" component="h1" gutterBottom>
 				Gallery
 			</Typography>
