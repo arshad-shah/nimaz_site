@@ -1,11 +1,9 @@
-import { Box, Button, Link, Typography } from "@mui/material";
+import { Box, Link, Typography } from "@mui/material";
 import React from "react";
 import PropTypes from "prop-types";
 import SocialLinks from "./SocialLinks";
 import PPolicy from "../assets/legal/Privacy Policy.pdf";
 import TandC from "../assets/legal/Terms and Condition.pdf";
-import { HiDocumentText } from "react-icons/hi";
-import { MdPrivacyTip } from "react-icons/md";
 export default function Footer({ isMobile }) {
 	const desktopStyles = {
 		display: "flex",
