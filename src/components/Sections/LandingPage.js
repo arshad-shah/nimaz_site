@@ -8,6 +8,7 @@ import { MdPrivacyTip } from "react-icons/md";
 import { HiDocumentText } from "react-icons/hi";
 import PPolicy from "../../assets/legal/Privacy Policy.pdf";
 import TandC from "../../assets/legal/Terms and Condition.pdf";
+import SocialLinks from "../SocialLinks";
 const PREFIX = "LandingPage";
 
 const classes = {
@@ -67,8 +68,8 @@ export default function LandingPage({ isMobile }) {
 						startIcon={<SiGoogleplay />}
 						variant="contained"
 						sx={{
-							padding: "1rem",
-							margin: "1rem",
+							padding: "0.5rem",
+							margin: "0.5rem",
 						}}
 						data-testid="shoplink"
 						data-block="shoplink"
@@ -77,6 +78,7 @@ export default function LandingPage({ isMobile }) {
 					>
 						Android
 					</Button>
+
 					<Box
 						display="flex"
 						flexDirection="row"
@@ -92,30 +94,56 @@ export default function LandingPage({ isMobile }) {
 							startIcon={<MdPrivacyTip />}
 							variant="contained"
 							sx={{
-								padding: "1rem",
-								margin: "1rem",
+								padding: "0.5rem",
+								margin: "0.5rem",
 							}}
 							data-testid="shoplink"
 							data-block="shoplink"
 							aria-label="Link to Google play for Nimaz"
 							href={PPolicy}
 						>
-							Privacy Policy
+							Privacy
 						</Button>
 						<Button
 							startIcon={<HiDocumentText />}
 							variant="contained"
 							sx={{
-								padding: "1rem",
-								margin: "1rem",
+								padding: "0.5rem",
+								margin: "0.5rem",
 							}}
 							data-testid="shoplink"
 							data-block="shoplink"
 							aria-label="Link to Google play for Nimaz"
 							href={TandC}
 						>
-							Terms and Conditions
+							T&Cs
 						</Button>
+					</Box>
+					<Box
+						display="flex"
+						flexDirection="column"
+						flexWrap="wrap"
+						justifyContent="center"
+						alignItems="center"
+						width="100%"
+						maxWidth="100%"
+						margin="1rem"
+						data-testid="landingSocialLinks"
+					>
+						<Typography variant="h6" color="textPrimary">
+							Get in touch
+						</Typography>
+						<SocialLinks
+							sx={{
+								color: "#000000",
+								transition: "all 0.3s ease-out",
+								"&:hover": {
+									boxShadow: "0px 0px 10px #000000",
+									transform: "scale(1.1)",
+									transition: "all 0.13s ease-in",
+								},
+							}}
+						/>
 					</Box>
 				</Box>
 
